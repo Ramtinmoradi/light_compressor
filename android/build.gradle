@@ -20,13 +20,13 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdk 34
-    namespace "com.abedelazizshe.lightcompressor"
+    namespace "com.abedelazizshe.light_compressor"
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
-        minSdkVersion 24
+        minSdk 24
     }
     lintOptions {
         disable 'InvalidPackage'
